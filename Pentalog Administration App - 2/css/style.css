@@ -1,0 +1,79 @@
+body
+{
+	background-image: url('back.jpg');
+	background-size: 100%;
+}
+table
+{
+	background-color: #91B9C5;
+	border-radius: 5px;
+	font-family: arial;
+}
+div
+{
+	text-align: center;
+	width: 30%;
+}
+#coloana0
+{
+	position: absolute;
+	left: 2%;
+	top: 2%;
+}
+#coloana1
+{
+	position: absolute;
+	left: 35%;
+	top: 2%;
+}
+#coloana2
+{
+	position: absolute;
+	right: 2%;
+	top: 2%;
+}
+th
+{
+	font-size: 12px;
+	border: solid 1px #425C54;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+}
+.liniiNoi
+{
+	font-size: 15px;
+	background-color: #F2F2F2;
+	border-radius: 5px;
+}
+h2
+{
+	font-size: 30px;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 20px black;
+}
+input
+{
+	width: 90%;
+	border-radius: 5px;
+}
+button
+{
+	width: 35%;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #425C54;
+	color: #FFFFFF;
+	font-size: 100%;
+	font-family: Arial;
+	box-shadow: 2px 2px 20px #F7FF00;
+	margin-top: 50px;
+}
+#buttonDelete
+{
+	width: 10%;
+	height: 6%;
+	position: absolute;
+	left: 2%;
+	bottom: 5%;
+}

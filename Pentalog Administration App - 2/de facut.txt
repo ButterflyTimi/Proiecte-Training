@@ -1,0 +1,6 @@
+* tabel in constructor stocat in this.table
+* renderThead -> se apeleaza o singura data din constructor
+* renderRows -> se apeleaza de fiecare data cand se modifica localstorage si curata this.table.find('tbody') si adauga tr-uri pentru  fiecare item
+* adaugare parametru nou pentru argumentul constructorului rowsDataId [clients, employees, etc.] si se va face localStorage( dataId );
+-> cand cosntruiesti tbody iei datele din localStorage( rowsDataId );
+

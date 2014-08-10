@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+	<title>Wizard form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div id="forms">
+	<div>
+		<h3>Create your account</h3>
+		<input type="text" name="email" placeholder="Email">
+		<input type="password" name="password" placeholder="Password">
+		<input type="password" name="cpassword" placeholder="Confirm Password">
+		<button class="next">Next</button>
+	</div>
+	<div>
+		<h3>Social profiles</h3>
+		<input type="text" name="facebook" placeholder="Facebook">
+		<input type="text" name="twitter" placeholder="Twitter">
+		<input type="text" name="gplus" placeholder="Google Plus">
+		<input type="text" name="pinterest" placeholder="Pinterest">
+		<button class="previous">Previous</button>
+		<button class="next">Next</button>
+	</div>
+	<div>
+		<h3>Personal details</h3>
+		<input type="text" name="fname" placeholder="First Name">
+		<input type="text" name="lname" placeholder="Last Name">
+		<input type="text" name="phone" placeholder="Phone">
+		<textarea name="adress" placeholder="Adress"></textarea>
+		<button class="previous">Previous</button>
+		<button id="Submit">Submit</button>
+	</div>
+</div>
+
+<script type="text/javascript" src="javascript/jQuery.js"></script>
+<script type="text/javascript" src="javascript/wizard.js"></script>
+<script>
+	$("#forms").wizard();
+</script>
+</body>
+</html>

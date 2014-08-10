@@ -1,0 +1,76 @@
+body
+{
+	background-color: #1D2024;
+}
+#casutaInformatii
+{
+	width: 450px;
+	height: 370px;
+	margin: auto;
+	position: relative;
+	background-color: #F7F7F7;
+	border: 9px solid #394557;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+h2
+{
+	border-bottom: solid 1px;
+	font: 25px arial;
+	color: #478FCC;
+	padding-bottom: 7px;
+}
+input
+{
+	width: 350px;
+	height: 50px;
+	margin:10px;
+	font-size: 20px;
+	border: solid 1px #A9A9A9;
+	outline: none;
+	padding-left: 8px;
+	padding-right: 50px;
+}
+#butonLogin
+{
+	width: 150px;
+	height: 50px;
+	margin:10px;
+    float:right;
+    background-color: #2283C5;
+    border: solid 6px #2283C5;
+    color: white;
+    font: 25px arial;
+}
+#iconCheie
+{
+	width: 25px;
+	height: 23px;
+}
+#inputUsername
+{
+	background-image: url(person-lock.jpg);
+	background-repeat:  no-repeat;
+	background-position:  365px 10px;
+}
+#inputPassword
+{
+	background-image: url(person-lock.jpg);
+	background-repeat:  no-repeat;
+	background-position:  365px -37px;
+}
+#badCredentials
+{
+	font-size: 20px;
+	font-family: arial;
+	color: #FB7442;
+	padding-top: 5px;
+	padding-bottom: 3px;
+}
+#infoLogin
+{
+	color: white;
+    font: 40px arial;
+}
+
